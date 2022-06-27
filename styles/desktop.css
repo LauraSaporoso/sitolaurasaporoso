@@ -252,6 +252,33 @@ a {
         padding: 0px;
 
     }
+   .mywebsite-pro-1 {
+    display: flex;
+
+   
+   
+   }
+    .mywebsite-pro-2 {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        
+     
+    }
+
+    .p-myweb {
+        font-size: 14px;
+        float: left;
+        margin-right: 20px;
+        font-weight: 300;
+      
+    }
+
+    .myweb-img {
+    width: 290px;
+    }
 
     
 /* --------------------------------------CONTACTS SECTION-----------------------------------------*/ 

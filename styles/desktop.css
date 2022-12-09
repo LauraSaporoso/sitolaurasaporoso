@@ -130,13 +130,15 @@ a {
     }
 
     .h1-about {
-
         margin-bottom: 30px;
-    
         font-size: 45px;
         font-weight: 300;
        position: absolute;
       
+    }
+    
+    .about-padding {
+        padding-left: 28px;
     }
 
     .rectangle-about {
@@ -197,6 +199,7 @@ a {
 
     }
 
+
     .project {
         width: 100%;
         margin-top: 10px;
@@ -204,6 +207,10 @@ a {
         flex-direction: column;
         padding: 20px;
 
+    }
+
+    .project-title {
+        padding-left: 20px;
     }
 
     .h1-project {

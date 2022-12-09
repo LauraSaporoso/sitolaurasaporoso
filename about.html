@@ -53,7 +53,7 @@
 
          <div class="about-title">
             <div class="rectangle-about"></div>
-            <h1 class="h1-about">About me</h1>
+            <h1 class="h1-about about-padding"><span class="animate"></span></h1>
          </div>
 
         <p class="p-about-1">Sono studentessa di <span style="color: #C49799 ; font-weight: bold;">Firenze 42</span> Luiss by Fondazione CR Firenze, scuola di programmazione. Dopo i miei anni all'artistico ho iniziato ad approfondire argomenti che riguardassero il mondo digitale tra cui programmazione e UI designer. 
@@ -77,7 +77,7 @@
     
              <div class="about-title">
                 <div class="rectangle-about"></div>
-                <h1 class="h1-about">My Skills</h1>
+                <h1 class="h1-about"><span class="animate-2"></span></h1>
              </div>
              
 
@@ -123,5 +123,33 @@
             <a href="contact.html"><span class="iconify footer-icon" data-icon="fluent:contact-card-16-filled" style="color: #2d3047; "></span></a>
         </div>
     </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <script>
+          var typed = new Typed(".animate", {
+        strings: [
+          "About me",
+        ],
+        typeSpeed: 150,
+        backDelay: 100,
+        backSpeed: 80,
+        loop: false,
+      });
+
+
+      var typed = new Typed(".animate-2", {
+        strings: [
+          "My Skills",
+        ],
+        typeSpeed: 150,
+        backDelay: 100,
+        backSpeed: 80,
+        loop: false,
+      });
+    
+    </script>
+
+
 </body>
 </html>

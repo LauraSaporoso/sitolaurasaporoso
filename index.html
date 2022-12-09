@@ -50,7 +50,7 @@
 
     <div class="div-home">
         <div class="container-home">
-            <h1 class="h1-home-desktop">Hello World!</h1>
+            <h1 class="h1-home-desktop"><span class="animate"></span></h1>
         <h1 class="h1-home-mobile">Hello <br> World!</h1>
         <p class="p-home">Sono <span style="color: #C49799 ; font-weight: bold;">Laura Saporoso</span>, studentessa di programmazione che ama 
             scrivere codice.</p>
@@ -63,7 +63,7 @@
     <!------------------------FOOTER------------------------>
 
     <footer>
-       <p class="footer-p">Laura Saporoso website 2022</p>
+       <p class="footer-p">Laura Saporoso website 2022/23</p>
         <div class="background-icon">
             <a href="index.html"><span class="iconify footer-icon" data-icon="ant-design:home-filled" style="color: #2d3047;"></span></a>
         </div>
@@ -77,5 +77,21 @@
             <a href="contact.html"><span class="iconify footer-icon" data-icon="fluent:contact-card-16-filled" style="color: #2d3047;"></span></a>
         </div>
     </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <script>
+    var typed = new Typed(".animate", {
+        strings: [
+          "Hello World!",
+        ],
+        typeSpeed: 120,
+        backDelay: 100,
+        backSpeed: 80,
+        loop: true,
+      });
+    </script>
+    
+
 </body>
 </html>

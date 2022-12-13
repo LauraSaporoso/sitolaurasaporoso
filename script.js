@@ -1,11 +1,16 @@
+const duckFigure = document.querySelector('figure');
 
-    var typed = new Typed(".animate", {
-      strings: [
-        "Hello World!",
-      ],
-      typeSpeed: 150,
-      backDelay: 100,
-      backSpeed: 80,
-      loop: true,
-    });
-  
+
+function play() {
+    var audio = document.getElementById("audio");
+    audio.play();
+}
+document.getElementById("dance-button").addEventListener("click", function() {
+    duckFigure.classList.add("dance");
+    //playMusic();
+    play();
+    setTimeout(function () {
+        duckFigure.classList.remove("dance");
+      }, 15000);
+      
+});

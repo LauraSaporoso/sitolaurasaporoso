@@ -97,7 +97,7 @@ a {
 
     .p-home {
         color: white;
-        font-size: 30px;
+        font-size: 25px;
         width: 500px;
         
     }
@@ -359,4 +359,53 @@ a:hover {
         font-size: 14px;
     }
 
+}
+
+
+
+
+/* Prova duck  */
+
+.duck-container {
+    max-width: 200px;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.duck {
+    max-width: 100%;
+    border: 8px solid #d0a0a3;
+    border-radius: 10px;
+    margin-bottom: 8px ;
+}
+
+.duck-animated {
+    display: none;
+}
+
+.dance .duck-animated {
+    display: block;
+}
+
+.dance .duck-static {
+    display: none;
+}
+
+#dance-button {
+    border-radius: 20px;
+    padding: 8px 15px;
+    background-color: #d0a0a3;
+    font-weight: 500;
+    border: 2px solid white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#dance-button:hover {
+    background-color: white;
+    transition-duration: .5s;
+    transform: scale(1.1);
 }

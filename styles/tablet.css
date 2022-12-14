@@ -48,27 +48,27 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: 30% auto;
-        
-      
+        margin: 20px auto;
+        flex-direction: column;
     }
 
     .h1-home-desktop {
         display: none;
     }
 
-    .container-home {
+    /*.container-home {
         margin: auto;
         color: white;
         display:flex;
         flex-direction: column;
         
-    }
+    }*/
 
     .h1-home-mobile {
         font-size: 64px !important;
         font-weight: 400;
         margin-bottom: 20px; 
+        color: white;
        
     }
 

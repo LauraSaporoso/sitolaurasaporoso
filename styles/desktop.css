@@ -70,12 +70,13 @@ a {
 
     .div-home {
         width: 100%;
-        height: 100vh;
+        height: 90vh;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
         margin-top: 0px;
+        text-align: center;
         
     }  
     /*.container-home {
@@ -91,6 +92,11 @@ a {
     .container-home {
         margin: 0 auto;
         color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
     }
 
     .container-h1 {
@@ -107,7 +113,6 @@ a {
         color: white;
         font-size: 20px;
         width: 500px;
-        
     }
 
 
@@ -410,10 +415,12 @@ a:hover {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 100px;
+    transform: scale(1);
+    transition: all 0.3s ease 0s;
 }
 
 #dance-button:hover {
     background-color: white;
-    transition-duration: .2s;
+    transition: all 0.3s ease 0s;
     transform: scale(1.1);
 }

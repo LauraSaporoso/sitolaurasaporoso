@@ -1,23 +1,20 @@
-
-
 @media only screen and (min-width: 481px) and (max-width: 906px) {
-      
+
 
     /* --------------------------------------HEADER-----------------------------------------*/
 
     body {
-       
-        position: relative; 
-        
+
+        position: relative;
     }
-    
+
     .menu-container {
         display: none !important;
     }
 
     header {
         padding: 20px;
-       position: relative; 
+        position: relative;
     }
 
     .logo {
@@ -33,22 +30,22 @@
     .rectangle-logo {
         position: absolute;
         width: 110px;
-        height:35px;
+        height: 35px;
         left: 90px;
         top: 16px;
-        
+
         background: var(--pink);
-        
+
     }
 
-    /* --------------------------------------CENTER HOME SECTION-----------------------------------------*/    
+    /* --------------------------------------CENTER HOME SECTION-----------------------------------------*/
     .div-home {
         width: 100%;
-        height: 100%;
+        height: 50vh;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: 20px auto;
+        margin: 80px auto;
         flex-direction: column;
     }
 
@@ -67,30 +64,30 @@
     .h1-home-mobile {
         font-size: 64px !important;
         font-weight: 400;
-        margin-bottom: 20px; 
+        margin-bottom: 20px;
         color: white;
-       
+
     }
 
     .p-home {
         color: white;
         font-size: 20px !important;
         width: 280px !important;
-        
+
     }
 
-/* --------------------------------------ABOUT SECTION-----------------------------------------*/ 
+    /* --------------------------------------ABOUT SECTION-----------------------------------------*/
 
     .div-about {
         width: 100%;
         height: 100%;
-        display:flex;
+        display: flex;
         flex-direction: column;
         margin: 15% auto;
         position: relative;
         margin-bottom: 120px;
     }
-    
+
     .container-about {
         margin: 0 25px;
         color: white;
@@ -108,22 +105,22 @@
     .h1-about {
 
         margin-bottom: 30px;
-    
+
         font-size: 45px;
         font-weight: 300;
-       position: absolute;
-      
+        position: absolute;
+
     }
 
     .rectangle-about {
         position: absolute;
         width: 120px;
-        height:40px;
+        height: 40px;
         left: 50%;
         top: 14px;
-        
+
         background: var(--pink);
-        
+
     }
 
     .p-about-1,
@@ -137,31 +134,32 @@
         list-style: none;
         margin-bottom: 30px;
     }
+
     .p-list {
         margin-bottom: 5px;
     }
 
-/* --------------------------------------PROJECT SECTION-----------------------------------------*/ 
+    /* --------------------------------------PROJECT SECTION-----------------------------------------*/
 
 
-   .p-project-2 {
-    margin-top: 20px;
-   }
+    .p-project-2 {
+        margin-top: 20px;
+    }
 
-   .project-container {
-    width: 100%;
-    height: 100%;
-    display:flex;
-    flex-direction: column;
-    
+    .project-container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+
     }
 
     .project-container-2 {
         width: 100%;
-    height: 100%;
-    display:flex;
-    flex-direction: column;
-    
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+
     }
 
     .project {
@@ -177,7 +175,7 @@
         color: var(--pink);
         font-size: 40px;
         font-weight: 600;
-        
+
         margin: 0 auto;
     }
 
@@ -193,14 +191,15 @@
         margin-top: 20px;
         width: 100%;
     }
+
     .facebook {
         min-width: 340px;
     }
 
-    
+
     .project-2 {
         width: 100%;
-        
+
         display: flex;
         flex-direction: column;
         padding: 20px;
@@ -210,60 +209,61 @@
 
     .mywebsite-pro-1 {
         display: flex;
-    
-       
-       
-       }
-        .mywebsite-pro-2 {
-            display: flex;
-            width: 100%;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            
-         
-        }
-    
-        .p-myweb {
-            font-size: 14px;
-            float: left;
-            margin-right: 20px;
-            font-weight: 300;
-            margin-bottom: 20px;
-          
-        }
-    
-        .myweb-img {
+
+
+
+    }
+
+    .mywebsite-pro-2 {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+
+    }
+
+    .p-myweb {
+        font-size: 14px;
+        float: left;
+        margin-right: 20px;
+        font-weight: 300;
+        margin-bottom: 20px;
+
+    }
+
+    .myweb-img {
         width: 340px;
-        }
-
-   
+    }
 
 
 
 
 
-/* --------------------------------------CONTACT SECTION-----------------------------------------*/ 
 
-     .rectangle-contact {
+
+    /* --------------------------------------CONTACT SECTION-----------------------------------------*/
+
+    .rectangle-contact {
         position: absolute;
         width: 110px;
-        height:38px;
+        height: 38px;
         left: 182px;
         top: 10px;
-        
+
         background: var(--pink);
-        
+
     }
 
     .p-contact {
         margin-bottom: 40px;
     }
-    
+
     .container-contatti {
         display: flex;
         flex-direction: column;
-       
+
         width: 100%;
     }
 
@@ -280,24 +280,24 @@
         margin: 30px 10px;
         color: white;
     }
-    
+
     .social-icon-contact:hover {
         color: var(--pink);
     }
-    
+
     .rectangle-contact {
         position: absolute;
         width: 155px;
-        height:40px;
+        height: 40px;
         left: 49%;
         top: 14px;
-        
+
         background: var(--pink);
-        
+
     }
-    
-       
-    
+
+
+
 
 
 
@@ -318,32 +318,34 @@
 
     /* --------------------------------------FOOTER-----------------------------------------*/
     footer {
-    bottom: 0; 
-    position: fixed;
-    width: 100%;
-    height: 90px;
-    background-color:#A97E80 ;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 80px;
+        bottom: 0;
+        position: fixed;
+        width: 100%;
+        height: 90px;
+        background-color: #A97E80;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 80px;
     }
+
     .footer-p {
         display: none;
     }
+
     .footer-icon {
         width: 25px;
         height: 25px;
     }
-    
+
     .background-icon {
         width: 45px;
         height: 45px;
-        background-color:var(--pink) ;
+        background-color: var(--pink);
         border-radius: 50%;
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    
- }
+
+}

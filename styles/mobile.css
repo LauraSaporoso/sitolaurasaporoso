@@ -1,27 +1,27 @@
 :root {
-    --shadow: 0 1px 2px rgba(0, 0, 0, 0.2); 
-    --pink:  #C49799;
- }
+    --shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    --pink: #C49799;
+}
 
 
- @media only screen and (max-device-width: 480px) {
-    
+@media only screen and (max-device-width: 480px) {
+
 
     /* --------------------------------------HEADER-----------------------------------------*/
 
     body {
-       
-        position: relative; 
-        
+
+        position: relative;
+
     }
-    
+
     .menu-container {
         display: none !important;
     }
 
     header {
         padding: 20px;
-       position: relative; 
+        position: relative;
     }
 
     .logo {
@@ -37,65 +37,65 @@
     .rectangle-logo {
         position: absolute;
         width: 110px;
-        height:35px;
+        height: 35px;
         left: 90px;
         top: 16px;
-        
+
         background: var(--pink);
-        
+
     }
 
-    /* --------------------------------------CENTER HOME SECTION-----------------------------------------*/    
+    /* --------------------------------------CENTER HOME SECTION-----------------------------------------*/
     .div-home {
         width: 100%;
-        height: 100%;
+        height: 80vh;
         display: flex;
         justify-content: center;
         align-items: center;
         margin: 20px auto;
         flex-direction: column;
     }
-  
+
 
     .h1-home-desktop {
         display: none;
     }
 
     .container-home {
-        margin: auto;
+        margin: -40px 0;
         color: white;
-        display:flex;
+        display: flex;
         flex-direction: column;
     }
 
     .h1-home-mobile {
         font-size: 64px !important;
         font-weight: 400;
-        margin-bottom: 20px; 
+        margin-bottom: 20px;
         color: white;
-       
+
     }
 
     .p-home {
         color: white;
         font-size: 20px !important;
         width: 280px !important;
-        
+
     }
 
-    
-/* --------------------------------------ABOUT SECTION-----------------------------------------*/ 
+
+    /* --------------------------------------ABOUT SECTION-----------------------------------------*/
 
     .div-about {
         width: 100%;
         height: 100%;
-        display:flex;
+        display: flex;
         flex-direction: column;
         margin: 15% auto;
         position: relative;
         margin-bottom: 120px;
     }
-    
+
     .container-about {
         margin: 0 25px;
         color: white;
@@ -115,18 +115,18 @@
         margin-bottom: 30px;
         font-size: 40px;
         font-weight: 300;
-       position: absolute;
+        position: absolute;
     }
 
     .rectangle-about {
         position: absolute;
         width: 110px;
-        height:38px;
+        height: 38px;
         left: 160px;
         top: 10px;
-        
+
         background: var(--pink);
-        
+
     }
 
     .p-about-1,
@@ -140,31 +140,32 @@
         list-style: none;
         margin-bottom: 30px;
     }
+
     .p-list {
         margin-bottom: 5px;
     }
 
-/* --------------------------------------PROJECT SECTION-----------------------------------------*/ 
+    /* --------------------------------------PROJECT SECTION-----------------------------------------*/
 
 
-   .p-project-2 {
-    margin-top: 20px;
-   }
+    .p-project-2 {
+        margin-top: 20px;
+    }
 
-   .project-container {
-    width: 100%;
-    height: 100%;
-    display:flex;
-    flex-direction: column;
-    
+    .project-container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+
     }
 
     .project-container-2 {
         width: 100%;
-    height: 100%;
-    display:flex;
-    flex-direction: column;
-    
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+
     }
 
     .project {
@@ -180,7 +181,7 @@
         color: var(--pink);
         font-size: 40px;
         font-weight: 600;
-        
+
         margin: 0 auto;
     }
 
@@ -196,14 +197,15 @@
         margin-top: 20px;
         width: 100%;
     }
+
     .facebook {
         min-width: 340px;
     }
 
-    
+
     .project-2 {
         width: 100%;
-        
+
         display: flex;
         flex-direction: column;
         padding: 20px;
@@ -212,58 +214,59 @@
 
     .mywebsite-pro-1 {
         display: flex;
-    
-       
-       
-       }
-        .mywebsite-pro-2 {
-            display: flex;
-            width: 100%;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            
-         
-        }
-    
-        .p-myweb {
-            font-size: 14px;
-            float: left;
-            margin-right: 20px;
-            font-weight: 300;
-            margin-bottom: 20px;
-          
-        }
-    
-        .myweb-img {
+
+
+
+    }
+
+    .mywebsite-pro-2 {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+
+    }
+
+    .p-myweb {
+        font-size: 14px;
+        float: left;
+        margin-right: 20px;
+        font-weight: 300;
+        margin-bottom: 20px;
+
+    }
+
+    .myweb-img {
         width: 340px;
-        }
+    }
 
 
 
 
 
-/* --------------------------------------CONTACT SECTION-----------------------------------------*/ 
+    /* --------------------------------------CONTACT SECTION-----------------------------------------*/
 
-     .rectangle-contact {
+    .rectangle-contact {
         position: absolute;
         width: 110px;
-        height:38px;
+        height: 38px;
         left: 182px;
         top: 10px;
-        
+
         background: var(--pink);
-        
+
     }
 
     .p-contact {
         margin-bottom: 40px;
     }
-    
+
     .container-contatti {
         display: flex;
         flex-direction: column;
-       
+
         width: 100%;
     }
 
@@ -286,9 +289,9 @@
         justify-content: space-between;
         padding: 50px;
         margin-top: 40px;
-        
+
     }
-    
+
 
 
 
@@ -309,32 +312,34 @@
 
     /* --------------------------------------FOOTER-----------------------------------------*/
     footer {
-    bottom: 0; 
-    position: fixed;
-    width: 100%;
-    height: 90px;
-    background-color:#A97E80 ;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 80px;
+        bottom: 0;
+        position: fixed;
+        width: 100%;
+        height: 90px;
+        background-color: #A97E80;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 80px;
     }
+
     .footer-p {
         display: none;
     }
+
     .footer-icon {
         width: 25px;
         height: 25px;
     }
-    
+
     .background-icon {
         width: 45px;
         height: 45px;
-        background-color:var(--pink) ;
+        background-color: var(--pink);
         border-radius: 50%;
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    
- }
+
+}

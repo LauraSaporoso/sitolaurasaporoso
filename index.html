@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,10 +15,11 @@
 
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300;400;500;600&display=swap"
+        rel="stylesheet">
 
-<script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
 
 
     <title>Laura Saporoso</title>
@@ -27,21 +29,29 @@
 <body>
     <header>
         <div class="logo-section">
-        <div class="rectangle-logo"></div>
-<div class="logo">
-    S a p o r o s o
+            <div class="rectangle-logo"></div>
+            <div class="logo">
+                S a p o r o s o
 
-</div>
-</div>
+            </div>
+        </div>
 
 
 
-    <ul  class="menu-container">
-        <a href="index.html"><li class="li-menu">home</li></a>
-        <a href="about.html"><li class="li-menu">about</li></a>
-        <a href="projects.html"><li class="li-menu">projects</li></a>
-        <a href="contact.html"><li class="li-menu">contact</li></a>
-    </ul>
+        <ul class="menu-container">
+            <a href="index.html">
+                <li class="li-menu">home</li>
+            </a>
+            <a href="about.html">
+                <li class="li-menu">about</li>
+            </a>
+            <a href="projects.html">
+                <li class="li-menu">projects</li>
+            </a>
+            <a href="contact.html">
+                <li class="li-menu">contact</li>
+            </a>
+        </ul>
 
     </header>
 
@@ -49,71 +59,58 @@
     <!------------------------HOME SECTION------------------------>
 
     <div class="div-home">
-        
-            <h1 class="h1-home-desktop"><span class="animate"></span></h1>
-            <h1 class="h1-home-mobile">Hello <br> World!</h1>
-        
-            <p class="p-home">Sono <span style="color: #C49799 ; font-weight: bold;">Laura Saporoso</span>, studentessa di programmazione che ama 
-                scrivere codice.</p>
-    
-        <div class="container-home">
-           
-             <!--prova duck -->
-        
-        <div class="duck-container">
-            <figure>
-                <img class="duck duck-static" src="img/duck-waiting.png" alt="duck-static">
-                <img class="duck duck-animated" src="img/duck-happy.gif" alt="duck-happy">
-            </figure>
-            <input id="dance-button" type="button" onClick="togglePlay()" value="If you are happy or sad,
-whatever, click here 🎵" onclick="play()">
 
-            <audio id="audio" src="sound/kool.mp3"></audio>
+        <h1 class="h1-home-desktop"><span class="animate"></span></h1>
+        <h1 class="h1-home-mobile">Hello <br> World!</h1>
 
-        </div>
-        
-        <!--prova duck -->
-        
-        
-        </div>
+        <p class="p-home">Sono <span style="color: #C49799 ; font-weight: bold;">Laura Saporoso</span>, studentessa di
+            programmazione che adora
+            scrivere codice.</p>
 
-       
-      
+
+
+
+
     </div>
 
     <!------------------------FOOTER------------------------>
 
     <footer>
-       <p class="footer-p">Laura Saporoso website 2022/23</p>
+        <p class="footer-p">Laura Saporoso website 2022/23</p>
         <div class="background-icon">
-            <a href="index.html"><span class="iconify footer-icon" data-icon="ant-design:home-filled" style="color: #2d3047;"></span></a>
+            <a href="index.html"><span class="iconify footer-icon" data-icon="ant-design:home-filled"
+                    style="color: #2d3047;"></span></a>
         </div>
         <div class="background-icon">
-            <a href="about.html"><span class="iconify footer-icon" data-icon="bxs:user" style="color: #2d3047;"></span></a>
+            <a href="about.html"><span class="iconify footer-icon" data-icon="bxs:user"
+                    style="color: #2d3047;"></span></a>
         </div>
         <div class="background-icon">
-            <a href="projects.html"><span class="iconify footer-icon" data-icon="bi:file-earmark-code-fill" style="color: #2d3047;"></span></a>
+            <a href="projects.html"><span class="iconify footer-icon" data-icon="bi:file-earmark-code-fill"
+                    style="color: #2d3047;"></span></a>
         </div>
         <div class="background-icon">
-            <a href="contact.html"><span class="iconify footer-icon" data-icon="fluent:contact-card-16-filled" style="color: #2d3047;"></span></a>
+            <a href="contact.html"><span class="iconify footer-icon" data-icon="fluent:contact-card-16-filled"
+                    style="color: #2d3047;"></span></a>
         </div>
     </footer>
-    
+
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
     <script>
-    var typed = new Typed(".animate", {
-        strings: [
-          "Hello World!",
-        ],
-        typeSpeed: 120,
-        backDelay: 100,
-        backSpeed: 80,
-        loop: true,
-      });
+        var typed = new Typed(".animate", {
+            strings: [
+                "Hello World!",
+            ],
+            typeSpeed: 120,
+            backDelay: 100,
+            backSpeed: 80,
+            loop: true,
+        });
     </script>
-    <script src="script.js"></script>
-    
-    
+
+
+
 
 </body>
+
 </html>
